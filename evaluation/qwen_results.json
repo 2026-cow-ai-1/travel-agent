@@ -1,0 +1,157 @@
+[
+  {
+    "id": "case_01",
+    "model": "qwen3:4b",
+    "think": false,
+    "input": "서울역에서 차로 2시간 이내에 갈 수 있는, 이 사진과 비슷한 국내 장소를 추천해줘.",
+    "base_date": "2026-10-06",
+    "expected": {
+      "origin": "서울역",
+      "transport": "car",
+      "max_travel_minutes": 120,
+      "date": null,
+      "usage_mode": "similar_domestic",
+      "is_round_trip": false
+    },
+    "actual": {
+      "origin": "서울역",
+      "transport": "car",
+      "max_travel_minutes": 120,
+      "date": "2026-10-06",
+      "usage_mode": "similar_domestic",
+      "is_round_trip": false
+    },
+    "raw_response": "{\n  \"origin\": \"서울역\",\n  \"transport\": \"car\",\n  \"max_travel_minutes\": 120,\n  \"date\": \"2026-10-06\",\n  \"usage_mode\": \"similar_domestic\",\n  \"is_round_trip\": false\n}",
+    "passed": false,
+    "elapsed_seconds": 2.08,
+    "error": null
+  },
+  {
+    "id": "case_02",
+    "model": "qwen3:4b",
+    "think": false,
+    "input": "내일 부산역에서 버스로 왕복 3시간 이내에 갈 수 있는, 이 사진과 비슷한 국내 장소를 추천해줘.",
+    "base_date": "2026-10-06",
+    "expected": {
+      "origin": "부산역",
+      "transport": "bus",
+      "max_travel_minutes": 90,
+      "date": "2026-10-07",
+      "usage_mode": "similar_domestic",
+      "is_round_trip": true
+    },
+    "actual": null,
+    "raw_response": null,
+    "passed": false,
+    "elapsed_seconds": 112.91,
+    "error": "ResponseError: prediction aborted, token repeat limit reached (status code: 500)"
+  },
+  {
+    "id": "case_03",
+    "model": "qwen3:4b",
+    "think": false,
+    "input": "이 사진이 찍힌 장소가 어디인지 찾아줘.",
+    "base_date": "2026-10-06",
+    "expected": {
+      "origin": null,
+      "transport": null,
+      "max_travel_minutes": null,
+      "date": null,
+      "usage_mode": "identify_place",
+      "is_round_trip": false
+    },
+    "actual": {
+      "origin": "기준 날짜: 2026-10-06",
+      "transport": null,
+      "max_travel_minutes": null,
+      "date": "2026-10-06",
+      "usage_mode": "identify_place",
+      "is_round_trip": false
+    },
+    "raw_response": "{\n  \"origin\": \"기준 날짜: 2026-10-06\",\n  \"transport\": null,\n  \"max_travel_minutes\": null,\n  \"date\": \"2026-10-06\",\n  \"usage_mode\": \"identify_place\",\n  \"is_round_trip\": false\n}",
+    "passed": false,
+    "elapsed_seconds": 3.06,
+    "error": null
+  },
+  {
+    "id": "case_04",
+    "model": "qwen3:4b",
+    "think": false,
+    "input": "명지대에서 차로 30분 이내에 갈 수 있는, 이 사진 속 장소와 비슷한 가까운 곳을 추천해줘. 사진 속 원래 장소는 제외해줘.",
+    "base_date": "2026-10-06",
+    "expected": {
+      "origin": "명지대",
+      "transport": "car",
+      "max_travel_minutes": 30,
+      "date": null,
+      "usage_mode": "nearby_similar",
+      "is_round_trip": false
+    },
+    "actual": {
+      "origin": "명지대",
+      "transport": "car",
+      "max_travel_minutes": 30,
+      "date": "2026-10-06",
+      "usage_mode": "nearby_similar",
+      "is_round_trip": false
+    },
+    "raw_response": "{\n  \"origin\": \"명지대\",\n  \"transport\": \"car\",\n  \"max_travel_minutes\": 30,\n  \"date\": \"2026-10-06\",\n  \"usage_mode\": \"nearby_similar\",\n  \"is_round_trip\": false\n}",
+    "passed": false,
+    "elapsed_seconds": 2.43,
+    "error": null
+  },
+  {
+    "id": "case_05",
+    "model": "qwen3:4b",
+    "think": false,
+    "input": "가까운 곳 추천해줘.",
+    "base_date": "2026-10-06",
+    "expected": {
+      "origin": null,
+      "transport": null,
+      "max_travel_minutes": null,
+      "date": null,
+      "usage_mode": null,
+      "is_round_trip": false
+    },
+    "actual": {
+      "origin": "가까운 곳",
+      "transport": null,
+      "max_travel_minutes": null,
+      "date": null,
+      "usage_mode": "nearby_similar",
+      "is_round_trip": false
+    },
+    "raw_response": "{\n  \"origin\": \"가까운 곳\",\n  \"transport\": null,\n  \"max_travel_minutes\": null,\n  \"date\": null,\n  \"usage_mode\": \"nearby_similar\",\n  \"is_round_trip\": false\n}",
+    "passed": false,
+    "elapsed_seconds": 1.84,
+    "error": null
+  },
+  {
+    "id": "case_06",
+    "model": "qwen3:4b",
+    "think": false,
+    "input": "10월쯤 기차로 갈 곳을 추천해줘.",
+    "base_date": "2026-10-06",
+    "expected": {
+      "origin": null,
+      "transport": "train",
+      "max_travel_minutes": null,
+      "date": null,
+      "usage_mode": null,
+      "is_round_trip": false
+    },
+    "actual": {
+      "origin": null,
+      "transport": "train",
+      "max_travel_minutes": null,
+      "date": null,
+      "usage_mode": "similar_domestic",
+      "is_round_trip": false
+    },
+    "raw_response": "{\n  \"origin\": null,\n  \"transport\": \"train\",\n  \"max_travel_minutes\": null,\n  \"date\": null,\n  \"usage_mode\": \"similar_domestic\",\n  \"is_round_trip\": false\n}",
+    "passed": false,
+    "elapsed_seconds": 1.64,
+    "error": null
+  }
+]
