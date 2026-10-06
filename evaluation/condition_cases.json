@@ -1,0 +1,80 @@
+[
+    {
+        "id": "case_01",
+        "base_date": "2026-10-06",
+        "input": "서울역에서 차로 2시간 이내에 갈 수 있는, 이 사진과 비슷한 국내 장소를 추천해줘.",
+        "expected": {
+            "origin": "서울역",
+            "transport": "car",
+            "max_travel_minutes": 120,
+            "date": null,
+            "usage_mode": "similar_domestic",
+            "is_round_trip": false
+        }
+    },
+    {
+        "id": "case_02",
+        "base_date": "2026-10-06",
+        "input": "내일 부산역에서 버스로 왕복 3시간 이내에 갈 수 있는, 이 사진과 비슷한 국내 장소를 추천해줘.",
+        "expected": {
+            "origin": "부산역",
+            "transport": "bus",
+            "max_travel_minutes": 90,
+            "date": "2026-10-07",
+            "usage_mode": "similar_domestic",
+            "is_round_trip": true
+        }
+    },
+    {
+        "id": "case_03",
+        "base_date": "2026-10-06",
+        "input": "이 사진이 찍힌 장소가 어디인지 찾아줘.",
+        "expected": {
+            "origin": null,
+            "transport": null,
+            "max_travel_minutes": null,
+            "date": null,
+            "usage_mode": "identify_place",
+            "is_round_trip": false
+        }
+    },
+    {
+        "id": "case_04",
+        "base_date": "2026-10-06",
+        "input": "명지대에서 차로 30분 이내에 갈 수 있는, 이 사진 속 장소와 비슷한 가까운 곳을 추천해줘. 사진 속 원래 장소는 제외해줘.",
+        "expected": {
+            "origin": "명지대",
+            "transport": "car",
+            "max_travel_minutes": 30,
+            "date": null,
+            "usage_mode": "nearby_similar",
+            "is_round_trip": false
+        }
+    },
+    {
+        "id": "case_05",
+        "base_date": "2026-10-06",
+        "input": "가까운 곳 추천해줘.",
+        "expected": {
+            "origin": null,
+            "transport": null,
+            "max_travel_minutes": null,
+            "date": null,
+            "usage_mode": null,
+            "is_round_trip": false
+        }
+    },
+    {
+        "id": "case_06",
+        "base_date": "2026-10-06",
+        "input": "10월쯤 기차로 갈 곳을 추천해줘.",
+        "expected": {
+            "origin": null,
+            "transport": "train",
+            "max_travel_minutes": null,
+            "date": null,
+            "usage_mode": null,
+            "is_round_trip": false
+        }
+    }
+]
