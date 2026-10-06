@@ -1,0 +1,78 @@
+﻿== 01_alpine_lake.jpg
+{'place_id': '126441', 'name': '돈내코 원앙폭포', 'region': '제주특별자치도 서귀포시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/84/3589084_image2_1.jpg', 'score': 0.7728272676467896, 'file': '126441_1.jpg'}
+{'place_id': '3036181', 'name': '나리소전망대', 'region': '강원특별자치도 정선군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/35/3583235_image2_1.jpg', 'score': 0.7691214680671692, 'file': '3036181_1.jpg'}
+{'place_id': '125667', 'name': '미천골계곡', 'region': '강원특별자치도 양양군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/17/3493217_image2_1.jpg', 'score': 0.761205792427063, 'file': '125667_1.jpg'}
+{'place_id': '128729', 'name': '화적연 (한탄강 유네스코 세계지질공원)', 'region': '경기도 포천시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/13/4113913_image2_1.jpg', 'score': 0.7435645461082458, 'file': '128729_1.jpg'}
+{'place_id': '2714802', 'name': '독수리봉', 'region': '충청북도 보은군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/67/3581967_image2_1.jpg', 'score': 0.7399170994758606, 'file': '2714802_1.jpg'}
+== 02_fjord.jpg
+{'place_id': '2714802', 'name': '독수리봉', 'region': '충청북도 보은군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/67/3581967_image2_1.jpg', 'score': 0.7695162296295166, 'file': '2714802_1.jpg'}
+{'place_id': '3036181', 'name': '나리소전망대', 'region': '강원특별자치도 정선군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/35/3583235_image2_1.jpg', 'score': 0.7465384006500244, 'file': '3036181_1.jpg'}
+{'place_id': '2606381', 'name': '월류봉', 'region': '충청북도 영동군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/60/3543160_image2_1.jpg', 'score': 0.7441575527191162, 'file': '2606381_1.jpg'}
+{'place_id': '125814', 'name': '월악산국립공원', 'region': '충청북도 제천시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/17/3494917_image2_1.jpg', 'score': 0.7360223531723022, 'file': '125814_1.jpg'}
+{'place_id': '1626649', 'name': '중선암', 'region': '충청북도 단양군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/06/3558506_image2_1.JPG', 'score': 0.7283869385719299, 'file': '1626649_1.jpg'}
+== 03_forest.jpg
+{'place_id': '127574', 'name': '모악산도립공원', 'region': '전북특별자치도 김제시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/09/3055809_image2_1.jpg', 'score': 0.8079007267951965, 'file': '127574_1.jpg'}
+{'place_id': '809149', 'name': '용인자연휴양림', 'region': '경기도 용인시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/69/3493769_image2_1.jpg', 'score': 0.8058099150657654, 'file': '809149_1.jpg'}
+{'place_id': '2795779', 'name': '동호숲', 'region': '경상남도 거창군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/29/3368629_image2_1.jpg', 'score': 0.7919595241546631, 'file': '2795779_1.jpg'}
+{'place_id': '127052', 'name': '엉또폭포', 'region': '제주특별자치도 서귀포시', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/58/3536058_image2_1.jpg', 'score': 0.7885802984237671, 'file': '127052_1.jpg'}
+{'place_id': '126048', 'name': '죽계구곡', 'region': '경상북도 영주시', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/62/3572462_image2_1.jpg', 'score': 0.7832183241844177, 'file': '126048_1.jpg'}
+== 04_beach.jpg
+{'place_id': '127291', 'name': '강화 동막해변', 'region': '인천광역시 강화군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/37/3501337_image2_1.jpg', 'score': 0.7905316352844238, 'file': '127291_1.jpg'}
+{'place_id': '126785', 'name': '가진해변', 'region': '강원특별자치도 고성군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/63/3513763_image2_1.jpg', 'score': 0.7848769426345825, 'file': '126785_1.jpg'}
+{'place_id': '129183', 'name': '흥환간이해수욕장', 'region': '경상북도 포항시', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/23/3528323_image2_1.jpg', 'score': 0.7727644443511963, 'file': '129183_1.jpg'}
+{'place_id': '125716', 'name': '동호해변(양양)', 'region': '강원특별자치도 양양군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/49/3518249_image2_1.jpg', 'score': 0.771602988243103, 'file': '125716_1.jpg'}
+{'place_id': '2768103', 'name': '영흥도 몽돌해변', 'region': '인천광역시 옹진군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/95/4117095_image2_1.jpg', 'score': 0.7609120607376099, 'file': '2768103_1.jpg'}
+== 05_coast.jpg
+{'place_id': '129544', 'name': '지리해수욕장', 'region': '전남광주통합특별시 완도군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/01/3591601_image2_1.jpg', 'score': 0.7900973558425903, 'file': '129544_1.jpg'}
+{'place_id': '2758135', 'name': '예구선착장', 'region': '경상남도 거제시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/06/3519506_image2_1.jpg', 'score': 0.7896496057510376, 'file': '2758135_1.jpg'}
+{'place_id': '129160', 'name': '삼정해수욕장', 'region': '경상북도 포항시', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/11/3528311_image2_1.jpg', 'score': 0.7864411473274231, 'file': '129160_1.jpg'}
+{'place_id': '2614704', 'name': '학포해안 (울릉도, 독도 국가지질공원)', 'region': '경상북도 울릉군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/43/3575343_image2_1.jpg', 'score': 0.7747378349304199, 'file': '2614704_1.jpg'}
+{'place_id': '2777896', 'name': '무슬목해변', 'region': '전남광주통합특별시 여수시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/01/3521001_image2_1.jpg', 'score': 0.7730629444122314, 'file': '2777896_1.jpg'}
+== 06_waterfall.jpg
+{'place_id': '125677', 'name': '무릉계곡', 'region': '강원특별자치도 동해시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource_photo/42/3474442_image2_1.jpg', 'score': 0.9058995246887207, 'file': '125677_1.jpg'}
+{'place_id': '127747', 'name': '구곡폭포', 'region': '강원특별자치도 춘천시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource_photo/08/3582808_image2_1.JPG', 'score': 0.8973166942596436, 'file': '127747_1.jpg'}
+{'place_id': '127286', 'name': '용문사계곡', 'region': '경상남도 남해군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/88/3554788_image2_1.jpg', 'score': 0.892626166343689, 'file': '127286_1.jpg'}
+{'place_id': '126677', 'name': '국립방태산자연휴양림', 'region': '강원특별자치도 인제군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource_photo/55/3540655_image2_1.jpg', 'score': 0.8766405582427979, 'file': '126677_1.jpg'}
+{'place_id': '128274', 'name': '금릉경포대', 'region': '전남광주통합특별시 강진군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/81/3518681_image2_1.jpg', 'score': 0.8591094017028809, 'file': '128274_1.jpg'}
+== 07_snow_mountain.jpg
+{'place_id': '4010144', 'name': '선자령', 'region': '강원특별자치도 평창군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource_photo/25/3477125_image2_1.jpg', 'score': 0.7521864771842957, 'file': '4010144_1.jpg'}
+{'place_id': '264590', 'name': '한라산 백록담', 'region': '제주특별자치도 서귀포시', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/95/3035595_image2_1.jpg', 'score': 0.7409939169883728, 'file': '264590_1.jpg'}
+{'place_id': '126469', 'name': '한라산 영실', 'region': '제주특별자치도 서귀포시', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/15/3552115_image2_1.jpg', 'score': 0.7346965074539185, 'file': '126469_1.jpg'}
+{'place_id': '127202', 'name': '어승생', 'region': '제주특별자치도 제주시', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/72/3555172_image2_1.jpg', 'score': 0.7345953583717346, 'file': '127202_1.jpg'}
+{'place_id': '3036181', 'name': '나리소전망대', 'region': '강원특별자치도 정선군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/35/3583235_image2_1.jpg', 'score': 0.7280181646347046, 'file': '3036181_1.jpg'}
+== 08_meadow.jpg
+{'place_id': '1895633', 'name': '비양봉', 'region': '제주특별자치도 제주시', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/71/3585371_image2_1.jpg', 'score': 0.7842265963554382, 'file': '1895633_1.jpg'}
+{'place_id': '4068825', 'name': '강정습지', 'region': '경상북도 구미시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/94/4067794_image2_1.jpg', 'score': 0.7697831392288208, 'file': '4068825_1.jpg'}
+{'place_id': '794882', 'name': '안동 사신리 느티나무', 'region': '경상북도 안동시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/22/3574522_image2_1.jpg', 'score': 0.7675058841705322, 'file': '794882_1.jpg'}
+{'place_id': '1323182', 'name': '평사리들판', 'region': '경상남도 하동군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/40/3550440_image2_1.jpg', 'score': 0.7532966732978821, 'file': '1323182_1.jpg'}
+{'place_id': '127202', 'name': '어승생', 'region': '제주특별자치도 제주시', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/72/3555172_image2_1.jpg', 'score': 0.7513622045516968, 'file': '127202_1.jpg'}
+== 09_lake_trees.jpg
+{'place_id': '2990283', 'name': '다산 좌학리 은행나무 숲', 'region': '경상북도 고령군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/31/3516931_image2_1.jpg', 'score': 0.8427332639694214, 'file': '2990283_1.jpg'}
+{'place_id': '125667', 'name': '미천골계곡', 'region': '강원특별자치도 양양군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/17/3493217_image2_1.jpg', 'score': 0.8336523771286011, 'file': '125667_1.jpg'}
+{'place_id': '2752308', 'name': '온빛자연휴양림', 'region': '충청남도 논산시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/89/4110589_image2_1.jpg', 'score': 0.7717012166976929, 'file': '2752308_1.jpg'}
+{'place_id': '3006025', 'name': '서시천체육공원', 'region': '전남광주통합특별시 구례군', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/42/3529942_image2_1.jpg', 'score': 0.7670091390609741, 'file': '3006025_1.jpg'}
+{'place_id': '2724127', 'name': '옥녀교차로 청보리밭', 'region': '전북특별자치도 군산시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/10/4002210_image2_1.jpg', 'score': 0.7663754820823669, 'file': '2724127_1.jpg'}
+== 10_canyon.jpg
+{'place_id': '126071', 'name': '봉래폭포 (울릉도, 독도 국가지질공원)', 'region': '경상북도 울릉군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/10/3575410_image2_1.jpg', 'score': 0.736061155796051, 'file': '126071_1.jpg'}
+{'place_id': '127747', 'name': '구곡폭포', 'region': '강원특별자치도 춘천시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource_photo/08/3582808_image2_1.JPG', 'score': 0.7230881452560425, 'file': '127747_1.jpg'}
+{'place_id': '126441', 'name': '돈내코 원앙폭포', 'region': '제주특별자치도 서귀포시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource/84/3589084_image2_1.jpg', 'score': 0.7230104207992554, 'file': '126441_1.jpg'}
+{'place_id': '2614652', 'name': '알봉 (울릉도, 독도 국가지질공원)', 'region': '경상북도 울릉군', 'image_url': 'http://tong.visitkorea.or.kr/cms/resource/57/3575457_image2_1.jpg', 'score': 0.720090389251709, 'file': '2614652_1.jpg'}
+{'place_id': '2820737', 'name': '베틀바위', 'region': '강원특별자치도 동해시', 'image_url': 'https://tong.visitkorea.or.kr/cms/resource_photo/20/3554220_image2_1.JPG', 'score': 0.7194117307662964, 'file': '2820737_1.jpg'}
+
+
+{
+ "device": "cpu",
+ "n_photos": 1000,
+ "n_places": 1000,
+ "n_skipped": 0,
+ "seconds": 57.98,
+ "sec_per_photo": 0.058
+}
+
+won't need gpu
+1000장에 58초(1분)
+단순계산으로 10,000장에 약 10분
+
+결론:1,000장 CPU 임베딩 58초(사진당 0.058초). 5,000~10,000장은 5~10분 추정이라 현재 규모에서는 GPU 불필요. 5주차에 큰 모델을 비교할 때 다시 측정.
+유의사항:현재 컴퓨터 기준이라 다른 환경에서는 결과가 다를 수 있음
+
