@@ -1,0 +1,8 @@
+{
+ "device": "cpu",
+ "n_photos": 1000,
+ "n_places": 1000,
+ "n_skipped": 0,
+ "seconds": 57.98,
+ "sec_per_photo": 0.058
+}
