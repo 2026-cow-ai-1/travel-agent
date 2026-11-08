@@ -1,0 +1,71 @@
+{
+    "response": {
+        "header": {
+            "resultCode": "0000",
+            "resultMsg": "OK"
+        },
+        "body": {
+            "items": {
+                "item": [
+                    {
+                        "addr1": "전남광주통합특별시 구례군 마산면 화엄사로 539",
+                        "addr2": "",
+                        "areacode": "",
+                        "cat1": "",
+                        "cat2": "",
+                        "cat3": "",
+                        "contentid": "126266",
+                        "contenttypeid": "12",
+                        "createdtime": "20020510090000",
+                        "firstimage": "https://tong.visitkorea.or.kr/cms/resource/13/3570813_image2_1.jpg",
+                        "firstimage2": "https://tong.visitkorea.or.kr/cms/resource/13/3570813_image3_1.jpg",
+                        "cpyrhtDivCd": "Type1",
+                        "mapx": "127.4951405982",
+                        "mapy": "35.2531819096",
+                        "mlevel": "6",
+                        "modifiedtime": "20261026174241",
+                        "sigungucode": "",
+                        "tel": "",
+                        "title": "화엄사계곡",
+                        "zipcode": "57616",
+                        "lDongRegnCd": "12",
+                        "lDongSignguCd": "730",
+                        "lclsSystm1": "NA",
+                        "lclsSystm2": "NA01",
+                        "lclsSystm3": "NA010400"
+                    },
+                    {
+                        "addr1": "경기도 과천시 밤나무길 100 (갈현동)",
+                        "addr2": "520",
+                        "areacode": "",
+                        "cat1": "",
+                        "cat2": "",
+                        "cat3": "",
+                        "contentid": "2615455",
+                        "contenttypeid": "12",
+                        "createdtime": "20190816223802",
+                        "firstimage": "https://tong.visitkorea.or.kr/cms/resource/51/3537351_image2_1.jpg",
+                        "firstimage2": "https://tong.visitkorea.or.kr/cms/resource/51/3537351_image3_1.jpg",
+                        "cpyrhtDivCd": "Type3",
+                        "mapx": "126.9710644181",
+                        "mapy": "37.4214367293",
+                        "mlevel": "6",
+                        "modifiedtime": "20261026173753",
+                        "sigungucode": "",
+                        "tel": "",
+                        "title": "과천야생화자연학습장",
+                        "zipcode": "13811",
+                        "lDongRegnCd": "41",
+                        "lDongSignguCd": "290",
+                        "lclsSystm1": "NA",
+                        "lclsSystm2": "NA04",
+                        "lclsSystm3": "NA040700"
+                    }
+                ]
+            },
+            "numOfRows": 2,
+            "pageNo": 1,
+            "totalCount": 3796
+        }
+    }
+}

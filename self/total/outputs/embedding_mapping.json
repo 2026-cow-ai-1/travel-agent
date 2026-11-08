@@ -1,0 +1,37 @@
+[
+  {
+    "vector_id": 0,
+    "image_id": 0,
+    "place_id": "1605908",
+    "url": "https://tong.visitkorea.or.kr/cms/resource/26/4112926_image2_1.jpg",
+    "file_name": "1605908_0.jpg"
+  },
+  {
+    "vector_id": 1,
+    "image_id": 1,
+    "place_id": "1605908",
+    "url": "https://tong.visitkorea.or.kr/cms/resource/30/4112930_image2_1.jpg",
+    "file_name": "1605908_1.jpg"
+  },
+  {
+    "vector_id": 2,
+    "image_id": 2,
+    "place_id": "1605908",
+    "url": "https://tong.visitkorea.or.kr/cms/resource/31/4112931_image2_1.jpg",
+    "file_name": "1605908_2.jpg"
+  },
+  {
+    "vector_id": 3,
+    "image_id": 3,
+    "place_id": "1605908",
+    "url": "https://tong.visitkorea.or.kr/cms/resource/32/4112932_image2_1.jpg",
+    "file_name": "1605908_3.jpg"
+  },
+  {
+    "vector_id": 4,
+    "image_id": 4,
+    "place_id": "3018956",
+    "url": "https://tong.visitkorea.or.kr/cms/resource/55/3581255_image2_1.jpg",
+    "file_name": "3018956_0.jpg"
+  }
+]

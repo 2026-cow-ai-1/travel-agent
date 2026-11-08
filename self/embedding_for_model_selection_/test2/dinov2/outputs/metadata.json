@@ -1,0 +1,1805 @@
+{
+  "model_id": "facebook/dinov2-base",
+  "images": [
+    {
+      "vector_index": 0,
+      "image_id": "image_0001",
+      "place_id": "1605908",
+      "name": "창덕궁 향나무",
+      "region": "서울특별시 종로구",
+      "image_path": "images/image_0001.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/26/4112926_image2_1.jpg"
+    },
+    {
+      "vector_index": 1,
+      "image_id": "image_0002",
+      "place_id": "3018956",
+      "name": "다화림식물원&치유정원",
+      "region": "전남광주통합특별시 담양군",
+      "image_path": "images/image_0002.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/55/3581255_image2_1.jpg"
+    },
+    {
+      "vector_index": 2,
+      "image_id": "image_0003",
+      "place_id": "2742267",
+      "name": "용수항",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0003.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/33/4073533_image2_1.jpg"
+    },
+    {
+      "vector_index": 3,
+      "image_id": "image_0004",
+      "place_id": "2788012",
+      "name": "백암동천",
+      "region": "경상남도 하동군",
+      "image_path": "images/image_0004.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/10/3550210_image2_1.jpg"
+    },
+    {
+      "vector_index": 4,
+      "image_id": "image_0005",
+      "place_id": "126041",
+      "name": "황매산(산청)",
+      "region": "경상남도 산청군",
+      "image_path": "images/image_0005.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/96/4095596_image2_1.jpg"
+    },
+    {
+      "vector_index": 5,
+      "image_id": "image_0006",
+      "place_id": "2743326",
+      "name": "변산해안도로 (부안변산해안도로)",
+      "region": "전북특별자치도 부안군",
+      "image_path": "images/image_0006.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/65/3370565_image2_1.jpg"
+    },
+    {
+      "vector_index": 6,
+      "image_id": "image_0007",
+      "place_id": "2487931",
+      "name": "화명생태공원",
+      "region": "부산광역시 북구",
+      "image_path": "images/image_0007.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/60/3497060_image2_1.jpg"
+    },
+    {
+      "vector_index": 7,
+      "image_id": "image_0008",
+      "place_id": "128120",
+      "name": "대구수목원",
+      "region": "대구광역시 달서구",
+      "image_path": "images/image_0008.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/97/4062397_image2_1.jpg"
+    },
+    {
+      "vector_index": 8,
+      "image_id": "image_0009",
+      "place_id": "1619098",
+      "name": "굴포천 생태하천",
+      "region": "인천광역시 부평구",
+      "image_path": "images/image_0009.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/60/3523760_image2_1.jpg"
+    },
+    {
+      "vector_index": 9,
+      "image_id": "image_0010",
+      "place_id": "127741",
+      "name": "적상산",
+      "region": "전북특별자치도 무주군",
+      "image_path": "images/image_0010.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/67/3559567_image2_1.jpg"
+    },
+    {
+      "vector_index": 10,
+      "image_id": "image_0011",
+      "place_id": "3077031",
+      "name": "대둔사계곡",
+      "region": "전남광주통합특별시 해남군",
+      "image_path": "images/image_0011.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/92/3591492_image2_1.jpg"
+    },
+    {
+      "vector_index": 11,
+      "image_id": "image_0012",
+      "place_id": "2820737",
+      "name": "베틀바위",
+      "region": "강원특별자치도 동해시",
+      "image_path": "images/image_0012.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/20/3554220_image2_1.JPG"
+    },
+    {
+      "vector_index": 12,
+      "image_id": "image_0013",
+      "place_id": "2764945",
+      "name": "탑동유원지",
+      "region": "경기도 동두천시",
+      "image_path": "images/image_0013.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/08/3563508_image2_1.jpg"
+    },
+    {
+      "vector_index": 13,
+      "image_id": "image_0014",
+      "place_id": "127483",
+      "name": "철원 철새도래지 (철원평야)",
+      "region": "강원특별자치도 철원군",
+      "image_path": "images/image_0014.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/10/4062510_image2_1.jpg"
+    },
+    {
+      "vector_index": 14,
+      "image_id": "image_0015",
+      "place_id": "2785764",
+      "name": "삼천포신항",
+      "region": "경상남도 사천시",
+      "image_path": "images/image_0015.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/19/3515519_image2_1.jpg"
+    },
+    {
+      "vector_index": 15,
+      "image_id": "image_0016",
+      "place_id": "2751601",
+      "name": "선창포구",
+      "region": "경기도 화성시",
+      "image_path": "images/image_0016.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/25/3537425_image2_1.jpg"
+    },
+    {
+      "vector_index": 16,
+      "image_id": "image_0017",
+      "place_id": "2737315",
+      "name": "자은고교여객선터미널",
+      "region": "전남광주통합특별시 신안군",
+      "image_path": "images/image_0017.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/82/3558882_image2_1.jpg"
+    },
+    {
+      "vector_index": 17,
+      "image_id": "image_0018",
+      "place_id": "2930935",
+      "name": "한담해안산책로",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0018.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/66/3587666_image2_1.jpg"
+    },
+    {
+      "vector_index": 18,
+      "image_id": "image_0019",
+      "place_id": "127804",
+      "name": "제천 의림지와 제림",
+      "region": "충청북도 제천시",
+      "image_path": "images/image_0019.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/09/3309809_image2_1.JPG"
+    },
+    {
+      "vector_index": 19,
+      "image_id": "image_0020",
+      "place_id": "2720430",
+      "name": "하동 편백자연휴양림",
+      "region": "경상남도 하동군",
+      "image_path": "images/image_0020.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/54/3530854_image2_1.jpg"
+    },
+    {
+      "vector_index": 20,
+      "image_id": "image_0021",
+      "place_id": "2784323",
+      "name": "후진항",
+      "region": "강원특별자치도 양양군",
+      "image_path": "images/image_0021.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/88/3100088_image2_1.jpg"
+    },
+    {
+      "vector_index": 21,
+      "image_id": "image_0022",
+      "place_id": "126238",
+      "name": "덕유산국립공원(본소,적상분소)",
+      "region": "전북특별자치도 무주군",
+      "image_path": "images/image_0022.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/44/3533344_image2_1.jpg"
+    },
+    {
+      "vector_index": 22,
+      "image_id": "image_0023",
+      "place_id": "127823",
+      "name": "한택식물원",
+      "region": "경기도 용인시",
+      "image_path": "images/image_0023.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/61/4100661_image2_1.jpg"
+    },
+    {
+      "vector_index": 23,
+      "image_id": "image_0024",
+      "place_id": "1619788",
+      "name": "강화 갑곶리 탱자나무",
+      "region": "인천광역시 강화군",
+      "image_path": "images/image_0024.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/77/3523577_image2_1.jpg"
+    },
+    {
+      "vector_index": 24,
+      "image_id": "image_0025",
+      "place_id": "2736822",
+      "name": "유구색동수국정원",
+      "region": "충청남도 공주시",
+      "image_path": "images/image_0025.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/4079141_image2_1.jpg"
+    },
+    {
+      "vector_index": 25,
+      "image_id": "image_0026",
+      "place_id": "127398",
+      "name": "찰비계곡",
+      "region": "경상남도 의령군",
+      "image_path": "images/image_0026.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/3522066_image2_1.jpg"
+    },
+    {
+      "vector_index": 26,
+      "image_id": "image_0027",
+      "place_id": "2756667",
+      "name": "전촌항",
+      "region": "경상북도 경주시",
+      "image_path": "images/image_0027.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/70/3538170_image2_1.jpg"
+    },
+    {
+      "vector_index": 27,
+      "image_id": "image_0028",
+      "place_id": "3029995",
+      "name": "송도솔밭도시숲",
+      "region": "경상북도 포항시",
+      "image_path": "images/image_0028.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/3528244_image2_1.jpg"
+    },
+    {
+      "vector_index": 28,
+      "image_id": "image_0029",
+      "place_id": "2737299",
+      "name": "구시포항",
+      "region": "전북특별자치도 고창군",
+      "image_path": "images/image_0029.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/02/3536202_image2_1.jpg"
+    },
+    {
+      "vector_index": 29,
+      "image_id": "image_0030",
+      "place_id": "1918950",
+      "name": "괴오름",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0030.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/40/3585540_image2_1.jpg"
+    },
+    {
+      "vector_index": 30,
+      "image_id": "image_0031",
+      "place_id": "129458",
+      "name": "홍원항",
+      "region": "충청남도 서천군",
+      "image_path": "images/image_0031.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/35/3513935_image2_1.jpg"
+    },
+    {
+      "vector_index": 31,
+      "image_id": "image_0032",
+      "place_id": "4086987",
+      "name": "국립금산자연휴양림",
+      "region": "충청남도 금산군",
+      "image_path": "images/image_0032.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/4086885_image2_1.jpg"
+    },
+    {
+      "vector_index": 32,
+      "image_id": "image_0033",
+      "place_id": "126964",
+      "name": "와룡자연휴양림",
+      "region": "전북특별자치도 장수군",
+      "image_path": "images/image_0033.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/75/3560975_image2_1.jpg"
+    },
+    {
+      "vector_index": 33,
+      "image_id": "image_0034",
+      "place_id": "127107",
+      "name": "추봉도",
+      "region": "경상남도 통영시",
+      "image_path": "images/image_0034.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/96/3556896_image2_1.jpg"
+    },
+    {
+      "vector_index": 34,
+      "image_id": "image_0035",
+      "place_id": "2756141",
+      "name": "거창 항노화힐링랜드",
+      "region": "경상남도 거창군",
+      "image_path": "images/image_0035.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/53/4008253_image2_1.jpg"
+    },
+    {
+      "vector_index": 35,
+      "image_id": "image_0036",
+      "place_id": "2606725",
+      "name": "곡교천 은행나무길",
+      "region": "충청남도 아산시",
+      "image_path": "images/image_0036.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/05/3535305_image2_1.jpg"
+    },
+    {
+      "vector_index": 36,
+      "image_id": "image_0037",
+      "place_id": "127550",
+      "name": "삼학도",
+      "region": "전남광주통합특별시 목포시",
+      "image_path": "images/image_0037.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/15/3521515_image2_1.jpg"
+    },
+    {
+      "vector_index": 37,
+      "image_id": "image_0038",
+      "place_id": "2788084",
+      "name": "선유동계곡(하동)",
+      "region": "경상남도 하동군",
+      "image_path": "images/image_0038.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/64/3550964_image2_1.jpg"
+    },
+    {
+      "vector_index": 38,
+      "image_id": "image_0039",
+      "place_id": "2611149",
+      "name": "삼칭이길",
+      "region": "경상남도 통영시",
+      "image_path": "images/image_0039.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3557536_image2_1.jpg"
+    },
+    {
+      "vector_index": 39,
+      "image_id": "image_0040",
+      "place_id": "126105",
+      "name": "울릉 죽도 (울릉도, 독도 국가지질공원)",
+      "region": "경상북도 울릉군",
+      "image_path": "images/image_0040.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/76/3575276_image2_1.jpg"
+    },
+    {
+      "vector_index": 40,
+      "image_id": "image_0041",
+      "place_id": "126966",
+      "name": "무등산편백자연휴양림",
+      "region": "전남광주통합특별시 화순군",
+      "image_path": "images/image_0041.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/96/3590596_image2_1.jpg"
+    },
+    {
+      "vector_index": 41,
+      "image_id": "image_0042",
+      "place_id": "2758293",
+      "name": "장곰항",
+      "region": "충청남도 태안군",
+      "image_path": "images/image_0042.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/32/3553232_image2_1.jpg"
+    },
+    {
+      "vector_index": 42,
+      "image_id": "image_0043",
+      "place_id": "129560",
+      "name": "대금굴",
+      "region": "강원특별자치도 삼척시",
+      "image_path": "images/image_0043.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/89/3460189_image2_1.jpg"
+    },
+    {
+      "vector_index": 43,
+      "image_id": "image_0044",
+      "place_id": "1602451",
+      "name": "대모산도시자연공원",
+      "region": "서울특별시 강남구",
+      "image_path": "images/image_0044.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/45/3589845_image2_1.jpg"
+    },
+    {
+      "vector_index": 44,
+      "image_id": "image_0045",
+      "place_id": "126570",
+      "name": "진남교반",
+      "region": "경상북도 문경시",
+      "image_path": "images/image_0045.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/80/3584880_image2_1.jpg"
+    },
+    {
+      "vector_index": 45,
+      "image_id": "image_0046",
+      "place_id": "126006",
+      "name": "괴산 송덕리 미선나무 자생지",
+      "region": "충청북도 괴산군",
+      "image_path": "images/image_0046.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/12/3571212_image2_1.jpg"
+    },
+    {
+      "vector_index": 46,
+      "image_id": "image_0047",
+      "place_id": "2787957",
+      "name": "섬진강어류생태관",
+      "region": "전남광주통합특별시 구례군",
+      "image_path": "images/image_0047.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/53/4105853_image2_1.jpg"
+    },
+    {
+      "vector_index": 47,
+      "image_id": "image_0048",
+      "place_id": "4054732",
+      "name": "김제 메타세쿼이아길",
+      "region": "김제시 죽산면",
+      "image_path": "images/image_0048.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/06/4053506_image2_1.jpg"
+    },
+    {
+      "vector_index": 48,
+      "image_id": "image_0049",
+      "place_id": "125425",
+      "name": "제암산자연휴양림",
+      "region": "전남광주통합특별시 보성군",
+      "image_path": "images/image_0049.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/66/3511566_image2_1.jpg"
+    },
+    {
+      "vector_index": 49,
+      "image_id": "image_0050",
+      "place_id": "2723780",
+      "name": "설레미해수욕장",
+      "region": "전남광주통합특별시 신안군",
+      "image_path": "images/image_0050.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/43/3559043_image2_1.jpg"
+    },
+    {
+      "vector_index": 50,
+      "image_id": "image_0051",
+      "place_id": "127287",
+      "name": "창선도",
+      "region": "경상남도 남해군",
+      "image_path": "images/image_0051.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/49/3554249_image2_1.jpg"
+    },
+    {
+      "vector_index": 51,
+      "image_id": "image_0052",
+      "place_id": "2776834",
+      "name": "대진항(삼척)",
+      "region": "강원특별자치도 삼척시",
+      "image_path": "images/image_0052.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/3561028_image2_1.jpg"
+    },
+    {
+      "vector_index": 52,
+      "image_id": "image_0053",
+      "place_id": "1914082",
+      "name": "황매산 모산재",
+      "region": "경상남도 합천군",
+      "image_path": "images/image_0053.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/29/3588329_image2_1.jpg"
+    },
+    {
+      "vector_index": 53,
+      "image_id": "image_0054",
+      "place_id": "3353323",
+      "name": "아산 환경과학공원 생태곤충원",
+      "region": "충청남도 아산시",
+      "image_path": "images/image_0054.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/61/3385961_image2_1.jpg"
+    },
+    {
+      "vector_index": 54,
+      "image_id": "image_0055",
+      "place_id": "127286",
+      "name": "용문사계곡",
+      "region": "경상남도 남해군",
+      "image_path": "images/image_0055.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/88/3554788_image2_1.jpg"
+    },
+    {
+      "vector_index": 55,
+      "image_id": "image_0056",
+      "place_id": "2744501",
+      "name": "신소양체육공원",
+      "region": "경상남도 합천군",
+      "image_path": "images/image_0056.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/73/3565873_image2_1.jpg"
+    },
+    {
+      "vector_index": 56,
+      "image_id": "image_0057",
+      "place_id": "3559716",
+      "name": "대수산봉",
+      "region": "제주특별자치도 서귀포시",
+      "image_path": "images/image_0057.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/3559645_image2_1.jpg"
+    },
+    {
+      "vector_index": 57,
+      "image_id": "image_0058",
+      "place_id": "2569485",
+      "name": "용화저수지",
+      "region": "강원특별자치도 철원군",
+      "image_path": "images/image_0058.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/68/3558068_image2_1.jpg"
+    },
+    {
+      "vector_index": 58,
+      "image_id": "image_0059",
+      "place_id": "2731193",
+      "name": "강릉항",
+      "region": "강원특별자치도 강릉시",
+      "image_path": "images/image_0059.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/4075885_image2_1.jpg"
+    },
+    {
+      "vector_index": 59,
+      "image_id": "image_0060",
+      "place_id": "126242",
+      "name": "다도해 해상국립공원(완도)",
+      "region": "전남광주통합특별시 완도군",
+      "image_path": "images/image_0060.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/4002288_image2_1.jpg"
+    },
+    {
+      "vector_index": 60,
+      "image_id": "image_0061",
+      "place_id": "791432",
+      "name": "의성 산운생태공원",
+      "region": "경상북도 의성군",
+      "image_path": "images/image_0061.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/19/3542219_image2_1.jpg"
+    },
+    {
+      "vector_index": 61,
+      "image_id": "image_0062",
+      "place_id": "1115042",
+      "name": "봉화산(서울)",
+      "region": "서울특별시 중랑구",
+      "image_path": "images/image_0062.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/23/3573123_image2_1.jpg"
+    },
+    {
+      "vector_index": 62,
+      "image_id": "image_0063",
+      "place_id": "2769795",
+      "name": "해상관광탐방로",
+      "region": "인천광역시 영종구",
+      "image_path": "images/image_0063.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/3518095_image2_1.jpg"
+    },
+    {
+      "vector_index": 63,
+      "image_id": "image_0064",
+      "place_id": "2614704",
+      "name": "학포해안 (울릉도, 독도 국가지질공원)",
+      "region": "경상북도 울릉군",
+      "image_path": "images/image_0064.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/43/3575343_image2_1.jpg"
+    },
+    {
+      "vector_index": 64,
+      "image_id": "image_0065",
+      "place_id": "128758",
+      "name": "경포해수욕장",
+      "region": "강원특별자치도 강릉시",
+      "image_path": "images/image_0065.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/4075925_image2_1.jpg"
+    },
+    {
+      "vector_index": 65,
+      "image_id": "image_0066",
+      "place_id": "127852",
+      "name": "고운식물원",
+      "region": "충청남도 청양군",
+      "image_path": "images/image_0066.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/67/4075667_image2_1.jpg"
+    },
+    {
+      "vector_index": 66,
+      "image_id": "image_0067",
+      "place_id": "3416231",
+      "name": "대구 세천늪테마정원",
+      "region": "대구광역시 달성군",
+      "image_path": "images/image_0067.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/47/3572047_image2_1.jpg"
+    },
+    {
+      "vector_index": 67,
+      "image_id": "image_0068",
+      "place_id": "1915088",
+      "name": "세량지",
+      "region": "전남광주통합특별시 화순군",
+      "image_path": "images/image_0068.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/74/3583374_image2_1.jpg"
+    },
+    {
+      "vector_index": 68,
+      "image_id": "image_0069",
+      "place_id": "125586",
+      "name": "설악산국립공원(남설악)",
+      "region": "강원특별자치도 양양군",
+      "image_path": "images/image_0069.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/3505945_image2_1.jpg"
+    },
+    {
+      "vector_index": 69,
+      "image_id": "image_0070",
+      "place_id": "126705",
+      "name": "백운호수",
+      "region": "경기도 의왕시",
+      "image_path": "images/image_0070.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/06/3508506_image2_1.jpg"
+    },
+    {
+      "vector_index": 70,
+      "image_id": "image_0071",
+      "place_id": "125775",
+      "name": "매월대폭포",
+      "region": "강원특별자치도 철원군",
+      "image_path": "images/image_0071.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/65/3332265_image2_1.jpg"
+    },
+    {
+      "vector_index": 71,
+      "image_id": "image_0072",
+      "place_id": "2633917",
+      "name": "백운호수 생태탐방로",
+      "region": "경기도 의왕시",
+      "image_path": "images/image_0072.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/3508466_image2_1.jpg"
+    },
+    {
+      "vector_index": 72,
+      "image_id": "image_0073",
+      "place_id": "127400",
+      "name": "탑바위",
+      "region": "경상남도 의령군",
+      "image_path": "images/image_0073.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/63/3580463_image2_1.jpg"
+    },
+    {
+      "vector_index": 73,
+      "image_id": "image_0074",
+      "place_id": "2755146",
+      "name": "고천암 자연생태공원",
+      "region": "전남광주통합특별시 해남군",
+      "image_path": "images/image_0074.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/47/3562847_image2_1.jpg"
+    },
+    {
+      "vector_index": 74,
+      "image_id": "image_0075",
+      "place_id": "1627635",
+      "name": "칠보산",
+      "region": "전북특별자치도 정읍시",
+      "image_path": "images/image_0075.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/99/3581599_image2_1.jpg"
+    },
+    {
+      "vector_index": 75,
+      "image_id": "image_0076",
+      "place_id": "125740",
+      "name": "황지연못",
+      "region": "강원특별자치도 태백시",
+      "image_path": "images/image_0076.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/02/3564402_image2_1.jpg"
+    },
+    {
+      "vector_index": 76,
+      "image_id": "image_0077",
+      "place_id": "798077",
+      "name": "영월 하송리 은행나무",
+      "region": "강원특별자치도 영월군",
+      "image_path": "images/image_0077.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/22/4063822_image2_1.jpg"
+    },
+    {
+      "vector_index": 77,
+      "image_id": "image_0078",
+      "place_id": "705678",
+      "name": "장동산림욕장",
+      "region": "대전광역시 대덕구",
+      "image_path": "images/image_0078.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/44/3033644_image2_1.jpg"
+    },
+    {
+      "vector_index": 78,
+      "image_id": "image_0079",
+      "place_id": "2796715",
+      "name": "베릿네오름",
+      "region": "제주특별자치도 서귀포시",
+      "image_path": "images/image_0079.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/07/3552607_image2_1.jpg"
+    },
+    {
+      "vector_index": 79,
+      "image_id": "image_0080",
+      "place_id": "2791433",
+      "name": "고내포구",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0080.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/19/3589219_image2_1.jpg"
+    },
+    {
+      "vector_index": 80,
+      "image_id": "image_0081",
+      "place_id": "2847703",
+      "name": "샤이니숲길",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0081.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/33/4073033_image2_1.jpg"
+    },
+    {
+      "vector_index": 81,
+      "image_id": "image_0082",
+      "place_id": "4067033",
+      "name": "남당무지개도로",
+      "region": "충청남도 홍성군",
+      "image_path": "images/image_0082.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/4066071_image2_1.jpg"
+    },
+    {
+      "vector_index": 82,
+      "image_id": "image_0083",
+      "place_id": "2756669",
+      "name": "화원자연휴양림",
+      "region": "대구광역시 달성군",
+      "image_path": "images/image_0083.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/87/3567387_image2_1.jpg"
+    },
+    {
+      "vector_index": 83,
+      "image_id": "image_0084",
+      "place_id": "128757",
+      "name": "정동진해변",
+      "region": "강원특별자치도 강릉시",
+      "image_path": "images/image_0084.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/82/3534482_image2_1.jpg"
+    },
+    {
+      "vector_index": 84,
+      "image_id": "image_0085",
+      "place_id": "3581898",
+      "name": "송곳산(울릉)",
+      "region": "경상북도 울릉군",
+      "image_path": "images/image_0085.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/70/3581870_image2_1.jpg"
+    },
+    {
+      "vector_index": 85,
+      "image_id": "image_0086",
+      "place_id": "794882",
+      "name": "안동 사신리 느티나무",
+      "region": "경상북도 안동시",
+      "image_path": "images/image_0086.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/22/3574522_image2_1.jpg"
+    },
+    {
+      "vector_index": 86,
+      "image_id": "image_0087",
+      "place_id": "2792592",
+      "name": "화포해변",
+      "region": "전남광주통합특별시 순천시",
+      "image_path": "images/image_0087.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/38/3496238_image2_1.jpg"
+    },
+    {
+      "vector_index": 87,
+      "image_id": "image_0088",
+      "place_id": "1918639",
+      "name": "월정리해변(월정리해수욕장)",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0088.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/93/4075293_image2_1.jpg"
+    },
+    {
+      "vector_index": 88,
+      "image_id": "image_0089",
+      "place_id": "2718736",
+      "name": "코리아플라워파크",
+      "region": "충청남도 태안군",
+      "image_path": "images/image_0089.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/67/3090767_image2_1.jpg"
+    },
+    {
+      "vector_index": 89,
+      "image_id": "image_0090",
+      "place_id": "2379537",
+      "name": "성불산자연휴양림",
+      "region": "충청북도 괴산군",
+      "image_path": "images/image_0090.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/50/4041850_image2_1.jpg"
+    },
+    {
+      "vector_index": 90,
+      "image_id": "image_0091",
+      "place_id": "3462405",
+      "name": "워터프론트와 킹웰리 분수대",
+      "region": "울산광역시 남구",
+      "image_path": "images/image_0091.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/63/3551263_image2_1.jpg"
+    },
+    {
+      "vector_index": 91,
+      "image_id": "image_0092",
+      "place_id": "2747133",
+      "name": "미산저수지",
+      "region": "경기도 안성시",
+      "image_path": "images/image_0092.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/68/3558768_image2_1.jpg"
+    },
+    {
+      "vector_index": 92,
+      "image_id": "image_0093",
+      "place_id": "2789378",
+      "name": "제주신흥해수욕장",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0093.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/48/4114048_image2_1.JPG"
+    },
+    {
+      "vector_index": 93,
+      "image_id": "image_0094",
+      "place_id": "2781820",
+      "name": "거북섬",
+      "region": "경기도 시흥시",
+      "image_path": "images/image_0094.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/72/4057172_image2_1.jpg"
+    },
+    {
+      "vector_index": 94,
+      "image_id": "image_0095",
+      "place_id": "1945394",
+      "name": "손지오름",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0095.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/92/3565192_image2_1.jpg"
+    },
+    {
+      "vector_index": 95,
+      "image_id": "image_0096",
+      "place_id": "2858656",
+      "name": "창꼼",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0096.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/15/3095515_image2_1.jpg"
+    },
+    {
+      "vector_index": 96,
+      "image_id": "image_0097",
+      "place_id": "2784088",
+      "name": "본포수변생태공원",
+      "region": "경상남도 창원시",
+      "image_path": "images/image_0097.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3565716_image2_1.JPG"
+    },
+    {
+      "vector_index": 97,
+      "image_id": "image_0098",
+      "place_id": "128980",
+      "name": "격포항",
+      "region": "전북특별자치도 부안군",
+      "image_path": "images/image_0098.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/63/3542863_image2_1.jpg"
+    },
+    {
+      "vector_index": 98,
+      "image_id": "image_0099",
+      "place_id": "2759612",
+      "name": "내소사 전나무 숲길",
+      "region": "전북특별자치도 부안군",
+      "image_path": "images/image_0099.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/4090571_image2_1.JPG"
+    },
+    {
+      "vector_index": 99,
+      "image_id": "image_0100",
+      "place_id": "125630",
+      "name": "고원통계곡",
+      "region": "강원특별자치도 인제군",
+      "image_path": "images/image_0100.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/51/3557251_image2_1.jpg"
+    },
+    {
+      "vector_index": 100,
+      "image_id": "image_0101",
+      "place_id": "228856",
+      "name": "남당항",
+      "region": "충청남도 홍성군",
+      "image_path": "images/image_0101.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/4039041_image2_1.jpg"
+    },
+    {
+      "vector_index": 101,
+      "image_id": "image_0102",
+      "place_id": "2723589",
+      "name": "광암해수욕장",
+      "region": "경상남도 창원시",
+      "image_path": "images/image_0102.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/78/3565278_image2_1.jpg"
+    },
+    {
+      "vector_index": 102,
+      "image_id": "image_0103",
+      "place_id": "129491",
+      "name": "항도몽돌해변",
+      "region": "경상남도 남해군",
+      "image_path": "images/image_0103.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/20/3561420_image2_1.jpg"
+    },
+    {
+      "vector_index": 103,
+      "image_id": "image_0104",
+      "place_id": "2778890",
+      "name": "노을해안로",
+      "region": "제주특별자치도 서귀포시",
+      "image_path": "images/image_0104.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/68/3552568_image2_1.jpg"
+    },
+    {
+      "vector_index": 104,
+      "image_id": "image_0105",
+      "place_id": "2614714",
+      "name": "낙동강하구 (부산 국가지질공원)",
+      "region": "부산광역시 사하구",
+      "image_path": "images/image_0105.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/37/3029337_image2_1.jpg"
+    },
+    {
+      "vector_index": 105,
+      "image_id": "image_0106",
+      "place_id": "1304613",
+      "name": "통영항",
+      "region": "경상남도 통영시",
+      "image_path": "images/image_0106.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3556852_image2_1.jpg"
+    },
+    {
+      "vector_index": 106,
+      "image_id": "image_0107",
+      "place_id": "1605920",
+      "name": "창덕궁 다래나무",
+      "region": "서울특별시 종로구",
+      "image_path": "images/image_0107.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/09/4112909_image2_1.jpg"
+    },
+    {
+      "vector_index": 107,
+      "image_id": "image_0108",
+      "place_id": "2863813",
+      "name": "유니스의정원 보타닉하우스",
+      "region": "경기도 안산시",
+      "image_path": "images/image_0108.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/3513944_image2_1.jpg"
+    },
+    {
+      "vector_index": 108,
+      "image_id": "image_0109",
+      "place_id": "2768199",
+      "name": "낭하리해변",
+      "region": "인천광역시 옹진군",
+      "image_path": "images/image_0109.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/64/3517664_image2_1.jpg"
+    },
+    {
+      "vector_index": 109,
+      "image_id": "image_0110",
+      "place_id": "125777",
+      "name": "아우라지",
+      "region": "강원특별자치도 정선군",
+      "image_path": "images/image_0110.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/44/4073444_image2_1.jpg"
+    },
+    {
+      "vector_index": 110,
+      "image_id": "image_0111",
+      "place_id": "2756077",
+      "name": "금소생태공원",
+      "region": "경상북도 안동시",
+      "image_path": "images/image_0111.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/95/3553195_image2_1.jpg"
+    },
+    {
+      "vector_index": 111,
+      "image_id": "image_0112",
+      "place_id": "2768195",
+      "name": "인천북항다목적부두",
+      "region": "인천광역시 서해구",
+      "image_path": "images/image_0112.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/05/3524405_image2_1.jpg"
+    },
+    {
+      "vector_index": 112,
+      "image_id": "image_0113",
+      "place_id": "730441",
+      "name": "베어트리파크",
+      "region": "세종특별자치시 전동면",
+      "image_path": "images/image_0113.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/4058636_image2_1.jpg"
+    },
+    {
+      "vector_index": 113,
+      "image_id": "image_0114",
+      "place_id": "127867",
+      "name": "수륙해수욕장",
+      "region": "경상남도 통영시",
+      "image_path": "images/image_0114.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/55/3558155_image2_1.jpg"
+    },
+    {
+      "vector_index": 114,
+      "image_id": "image_0115",
+      "place_id": "129160",
+      "name": "삼정해수욕장",
+      "region": "경상북도 포항시",
+      "image_path": "images/image_0115.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/11/3528311_image2_1.jpg"
+    },
+    {
+      "vector_index": 115,
+      "image_id": "image_0116",
+      "place_id": "2718728",
+      "name": "성지곡수원지",
+      "region": "부산광역시 부산진구",
+      "image_path": "images/image_0116.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/64/3496964_image2_1.jpg"
+    },
+    {
+      "vector_index": 116,
+      "image_id": "image_0117",
+      "place_id": "2777305",
+      "name": "봉래산(영월)",
+      "region": "강원특별자치도 영월군",
+      "image_path": "images/image_0117.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/35/3557235_image2_1.JPG"
+    },
+    {
+      "vector_index": 117,
+      "image_id": "image_0118",
+      "place_id": "2758283",
+      "name": "드르니항",
+      "region": "충청남도 태안군",
+      "image_path": "images/image_0118.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/27/3495127_image2_1.jpg"
+    },
+    {
+      "vector_index": 118,
+      "image_id": "image_0119",
+      "place_id": "2740052",
+      "name": "예래포구",
+      "region": "제주특별자치도 서귀포시",
+      "image_path": "images/image_0119.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/54/3550554_image2_1.jpg"
+    },
+    {
+      "vector_index": 119,
+      "image_id": "image_0120",
+      "place_id": "2764322",
+      "name": "쪽박섬",
+      "region": "경기도 안산시",
+      "image_path": "images/image_0120.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/62/3560762_image2_1.jpg"
+    },
+    {
+      "vector_index": 120,
+      "image_id": "image_0121",
+      "place_id": "2738701",
+      "name": "월정리해안도로",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0121.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/02/3553602_image2_1.jpg"
+    },
+    {
+      "vector_index": 121,
+      "image_id": "image_0122",
+      "place_id": "2774295",
+      "name": "광주천 벚꽃길",
+      "region": "전남광주통합특별시 서구",
+      "image_path": "images/image_0122.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/72/4064072_image2_1.jpg"
+    },
+    {
+      "vector_index": 122,
+      "image_id": "image_0123",
+      "place_id": "2782627",
+      "name": "탄도항 누에섬",
+      "region": "경기도 안산시",
+      "image_path": "images/image_0123.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/63/3548763_image2_1.jpg"
+    },
+    {
+      "vector_index": 123,
+      "image_id": "image_0124",
+      "place_id": "252576",
+      "name": "용추폭포(무주)",
+      "region": "전북특별자치도 무주군",
+      "image_path": "images/image_0124.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/83/3549683_image2_1.jpg"
+    },
+    {
+      "vector_index": 124,
+      "image_id": "image_0125",
+      "place_id": "2742528",
+      "name": "달창저수지",
+      "region": "대구광역시 달성군",
+      "image_path": "images/image_0125.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/50/3570050_image2_1.JPG"
+    },
+    {
+      "vector_index": 125,
+      "image_id": "image_0126",
+      "place_id": "126696",
+      "name": "백길해변",
+      "region": "전남광주통합특별시 신안군",
+      "image_path": "images/image_0126.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/63/3558963_image2_1.jpg"
+    },
+    {
+      "vector_index": 126,
+      "image_id": "image_0127",
+      "place_id": "3056205",
+      "name": "관곶",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0127.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/34/4054634_image2_1.jpg"
+    },
+    {
+      "vector_index": 127,
+      "image_id": "image_0128",
+      "place_id": "2033464",
+      "name": "정남진 편백숲 우드랜드",
+      "region": "전남광주통합특별시 장흥군",
+      "image_path": "images/image_0128.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/4096825_image2_1.jpg"
+    },
+    {
+      "vector_index": 128,
+      "image_id": "image_0129",
+      "place_id": "126233",
+      "name": "하동송림공원",
+      "region": "경상남도 하동군",
+      "image_path": "images/image_0129.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/88/3312688_image2_1.jpg"
+    },
+    {
+      "vector_index": 129,
+      "image_id": "image_0130",
+      "place_id": "2732575",
+      "name": "영일만항",
+      "region": "경상북도 포항시",
+      "image_path": "images/image_0130.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/62/3522662_image2_1.jpg"
+    },
+    {
+      "vector_index": 130,
+      "image_id": "image_0131",
+      "place_id": "127161",
+      "name": "오보해수욕장",
+      "region": "경상북도 영덕군",
+      "image_path": "images/image_0131.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/96/3590496_image2_1.jpg"
+    },
+    {
+      "vector_index": 131,
+      "image_id": "image_0132",
+      "place_id": "2751315",
+      "name": "갈치저수지",
+      "region": "경기도 군포시",
+      "image_path": "images/image_0132.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/70/3523670_image2_1.jpg"
+    },
+    {
+      "vector_index": 132,
+      "image_id": "image_0133",
+      "place_id": "1624135",
+      "name": "울산 귀신고래 회유해면",
+      "region": "울산광역시 남구",
+      "image_path": "images/image_0133.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/4101145_image2_1.jpg"
+    },
+    {
+      "vector_index": 133,
+      "image_id": "image_0134",
+      "place_id": "127842",
+      "name": "몰운대(정선)",
+      "region": "강원특별자치도 정선군",
+      "image_path": "images/image_0134.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/00/3100000_image2_1.jpg"
+    },
+    {
+      "vector_index": 134,
+      "image_id": "image_0135",
+      "place_id": "1704748",
+      "name": "거북바위 및 향나무 자생지 (울릉도, 독도 국가지질공원)",
+      "region": "경상북도 울릉군",
+      "image_path": "images/image_0135.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/73/3575273_image2_1.jpg"
+    },
+    {
+      "vector_index": 135,
+      "image_id": "image_0136",
+      "place_id": "2633910",
+      "name": "물맑음수목원",
+      "region": "경기도 남양주시",
+      "image_path": "images/image_0136.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/36/3507936_image2_1.jpg"
+    },
+    {
+      "vector_index": 136,
+      "image_id": "image_0137",
+      "place_id": "127574",
+      "name": "모악산도립공원",
+      "region": "전북특별자치도 김제시",
+      "image_path": "images/image_0137.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/09/3055809_image2_1.jpg"
+    },
+    {
+      "vector_index": 137,
+      "image_id": "image_0138",
+      "place_id": "2758267",
+      "name": "장구너머항",
+      "region": "인천광역시 강화군",
+      "image_path": "images/image_0138.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/3522715_image2_1.jpg"
+    },
+    {
+      "vector_index": 138,
+      "image_id": "image_0139",
+      "place_id": "2733830",
+      "name": "궁평해송군락지",
+      "region": "경기도 화성시",
+      "image_path": "images/image_0139.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/83/3537383_image2_1.jpg"
+    },
+    {
+      "vector_index": 139,
+      "image_id": "image_0140",
+      "place_id": "125684",
+      "name": "아야진해변",
+      "region": "강원특별자치도 고성군",
+      "image_path": "images/image_0140.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/03/4109203_image2_1.jpg"
+    },
+    {
+      "vector_index": 140,
+      "image_id": "image_0141",
+      "place_id": "3580954",
+      "name": "운일암반일암 구름다리",
+      "region": "전북특별자치도 진안군",
+      "image_path": "images/image_0141.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/3580899_image2_1.jpg"
+    },
+    {
+      "vector_index": 141,
+      "image_id": "image_0142",
+      "place_id": "2795779",
+      "name": "동호숲",
+      "region": "경상남도 거창군",
+      "image_path": "images/image_0142.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/3368629_image2_1.jpg"
+    },
+    {
+      "vector_index": 142,
+      "image_id": "image_0143",
+      "place_id": "126640",
+      "name": "우이도",
+      "region": "전남광주통합특별시 신안군",
+      "image_path": "images/image_0143.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/35/3572135_image2_1.jpg"
+    },
+    {
+      "vector_index": 143,
+      "image_id": "image_0144",
+      "place_id": "2703426",
+      "name": "송추계곡",
+      "region": "경기도 양주시",
+      "image_path": "images/image_0144.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/32/3516032_image2_1.jpg"
+    },
+    {
+      "vector_index": 144,
+      "image_id": "image_0145",
+      "place_id": "127885",
+      "name": "나로우주해수욕장",
+      "region": "전남광주통합특별시 고흥군",
+      "image_path": "images/image_0145.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/3519244_image2_1.jpg"
+    },
+    {
+      "vector_index": 145,
+      "image_id": "image_0146",
+      "place_id": "1626149",
+      "name": "내장산 굴거리나무군락",
+      "region": "전북특별자치도 정읍시",
+      "image_path": "images/image_0146.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/81/3581481_image2_1.jpg"
+    },
+    {
+      "vector_index": 146,
+      "image_id": "image_0147",
+      "place_id": "2756619",
+      "name": "파도소리길",
+      "region": "경상북도 경주시",
+      "image_path": "images/image_0147.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/50/3510650_image2_1.jpg"
+    },
+    {
+      "vector_index": 147,
+      "image_id": "image_0148",
+      "place_id": "579487",
+      "name": "진지도",
+      "region": "전남광주통합특별시 고흥군",
+      "image_path": "images/image_0148.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/00/3581500_image2_1.jpg"
+    },
+    {
+      "vector_index": 148,
+      "image_id": "image_0149",
+      "place_id": "126137",
+      "name": "진양호",
+      "region": "경상남도 진주시",
+      "image_path": "images/image_0149.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/68/3524868_image2_1.jpg"
+    },
+    {
+      "vector_index": 149,
+      "image_id": "image_0150",
+      "place_id": "127816",
+      "name": "경상남도수목원",
+      "region": "경상남도 진주시",
+      "image_path": "images/image_0150.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/56/3538856_image2_1.jpg"
+    },
+    {
+      "vector_index": 150,
+      "image_id": "image_0151",
+      "place_id": "778219",
+      "name": "태평염생식물원",
+      "region": "전남광주통합특별시 신안군",
+      "image_path": "images/image_0151.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/82/3449282_image2_1.jpg"
+    },
+    {
+      "vector_index": 151,
+      "image_id": "image_0152",
+      "place_id": "126097",
+      "name": "장사해수욕장",
+      "region": "경상북도 영덕군",
+      "image_path": "images/image_0152.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/40/3515940_image2_1.jpg"
+    },
+    {
+      "vector_index": 152,
+      "image_id": "image_0153",
+      "place_id": "1331230",
+      "name": "왕피천 (경북 동해안 국가지질공원)",
+      "region": "경상북도 울진군",
+      "image_path": "images/image_0153.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/18/3591018_image2_1.jpg"
+    },
+    {
+      "vector_index": 153,
+      "image_id": "image_0154",
+      "place_id": "579421",
+      "name": "죽도(고흥)",
+      "region": "전남광주통합특별시 고흥군",
+      "image_path": "images/image_0154.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/24/3581524_image2_1.jpg"
+    },
+    {
+      "vector_index": 154,
+      "image_id": "image_0155",
+      "place_id": "126637",
+      "name": "오산(구례)",
+      "region": "전남광주통합특별시 구례군",
+      "image_path": "images/image_0155.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/89/3569889_image2_1.jpg"
+    },
+    {
+      "vector_index": 155,
+      "image_id": "image_0156",
+      "place_id": "128658",
+      "name": "남산공원(고성)",
+      "region": "경상남도 고성군",
+      "image_path": "images/image_0156.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/62/3521862_image2_1.jpg"
+    },
+    {
+      "vector_index": 156,
+      "image_id": "image_0157",
+      "place_id": "4096092",
+      "name": "항골계곡",
+      "region": "강원특별자치도 정선군",
+      "image_path": "images/image_0157.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/38/4095738_image2_1.jpg"
+    },
+    {
+      "vector_index": 157,
+      "image_id": "image_0158",
+      "place_id": "2514563",
+      "name": "화성시 우리꽃식물원",
+      "region": "경기도 화성시",
+      "image_path": "images/image_0158.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/38/4006438_image2_1.jpg"
+    },
+    {
+      "vector_index": 158,
+      "image_id": "image_0159",
+      "place_id": "2710734",
+      "name": "하조대",
+      "region": "강원특별자치도 양양군",
+      "image_path": "images/image_0159.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/18/3518018_image2_1.jpg"
+    },
+    {
+      "vector_index": 159,
+      "image_id": "image_0160",
+      "place_id": "127565",
+      "name": "영랑호",
+      "region": "강원특별자치도 속초시",
+      "image_path": "images/image_0160.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/13/3449813_image2_1.jpg"
+    },
+    {
+      "vector_index": 160,
+      "image_id": "image_0161",
+      "place_id": "1627085",
+      "name": "예산 용궁리 백송",
+      "region": "충청남도 예산군",
+      "image_path": "images/image_0161.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/48/4105148_image2_1.jpg"
+    },
+    {
+      "vector_index": 161,
+      "image_id": "image_0162",
+      "place_id": "129541",
+      "name": "범바위",
+      "region": "전남광주통합특별시 완도군",
+      "image_path": "images/image_0162.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/55/3591555_image2_1.jpg"
+    },
+    {
+      "vector_index": 162,
+      "image_id": "image_0163",
+      "place_id": "127575",
+      "name": "무등산국립공원(광주)",
+      "region": "전남광주통합특별시 북구",
+      "image_path": "images/image_0163.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/3495266_image2_1.jpg"
+    },
+    {
+      "vector_index": 163,
+      "image_id": "image_0164",
+      "place_id": "1608746",
+      "name": "부안 도청리 호랑가시나무군락",
+      "region": "전북특별자치도 부안군",
+      "image_path": "images/image_0164.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/92/3520092_image2_1.jpg"
+    },
+    {
+      "vector_index": 164,
+      "image_id": "image_0165",
+      "place_id": "580069",
+      "name": "모도",
+      "region": "전남광주통합특별시 진도군",
+      "image_path": "images/image_0165.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/27/3572127_image2_1.JPG"
+    },
+    {
+      "vector_index": 165,
+      "image_id": "image_0166",
+      "place_id": "127811",
+      "name": "청옥산(봉화)",
+      "region": "경상북도 봉화군",
+      "image_path": "images/image_0166.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/98/3573098_image2_1.jpg"
+    },
+    {
+      "vector_index": 166,
+      "image_id": "image_0167",
+      "place_id": "147777",
+      "name": "완도 정도리 구계등",
+      "region": "전남광주통합특별시 완도군",
+      "image_path": "images/image_0167.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/68/4072568_image2_1.jpg"
+    },
+    {
+      "vector_index": 167,
+      "image_id": "image_0168",
+      "place_id": "2758220",
+      "name": "상궁저수지",
+      "region": "충청북도 보은군",
+      "image_path": "images/image_0168.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/48/4102248_image2_1.JPG"
+    },
+    {
+      "vector_index": 168,
+      "image_id": "image_0169",
+      "place_id": "2710823",
+      "name": "기사문해수욕장",
+      "region": "강원특별자치도 양양군",
+      "image_path": "images/image_0169.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/3518281_image2_1.jpg"
+    },
+    {
+      "vector_index": 169,
+      "image_id": "image_0170",
+      "place_id": "131231",
+      "name": "오봉저수지",
+      "region": "전북특별자치도 임실군",
+      "image_path": "images/image_0170.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/05/3550305_image2_1.jpg"
+    },
+    {
+      "vector_index": 170,
+      "image_id": "image_0171",
+      "place_id": "126296",
+      "name": "방축도",
+      "region": "전북특별자치도 군산시",
+      "image_path": "images/image_0171.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/25/3587125_image2_1.jpg"
+    },
+    {
+      "vector_index": 171,
+      "image_id": "image_0172",
+      "place_id": "125595",
+      "name": "청옥산(평창)",
+      "region": "강원특별자치도 평창군",
+      "image_path": "images/image_0172.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/28/3034228_image2_1.jpg"
+    },
+    {
+      "vector_index": 172,
+      "image_id": "image_0173",
+      "place_id": "2758833",
+      "name": "행담도",
+      "region": "충청남도 당진시",
+      "image_path": "images/image_0173.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/75/3567575_image2_1.jpg"
+    },
+    {
+      "vector_index": 173,
+      "image_id": "image_0174",
+      "place_id": "4061181",
+      "name": "마니산 치유의 숲",
+      "region": "인천광역시 강화군",
+      "image_path": "images/image_0174.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/51/4061151_image2_1.jpg"
+    },
+    {
+      "vector_index": 174,
+      "image_id": "image_0175",
+      "place_id": "1905417",
+      "name": "내천못재",
+      "region": "경상남도 합천군",
+      "image_path": "images/image_0175.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/31/3585031_image2_1.jpg"
+    },
+    {
+      "vector_index": 175,
+      "image_id": "image_0176",
+      "place_id": "127169",
+      "name": "국립 운장산자연휴양림",
+      "region": "전북특별자치도 진안군",
+      "image_path": "images/image_0176.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/78/3561378_image2_1.jpg"
+    },
+    {
+      "vector_index": 176,
+      "image_id": "image_0177",
+      "place_id": "126254",
+      "name": "추월산",
+      "region": "전남광주통합특별시 담양군",
+      "image_path": "images/image_0177.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/93/3581993_image2_1.jpg"
+    },
+    {
+      "vector_index": 177,
+      "image_id": "image_0178",
+      "place_id": "579610",
+      "name": "백일도",
+      "region": "전남광주통합특별시 고흥군",
+      "image_path": "images/image_0178.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/39/3519039_image2_1.jpg"
+    },
+    {
+      "vector_index": 178,
+      "image_id": "image_0179",
+      "place_id": "2667909",
+      "name": "나불지 생태공원",
+      "region": "대구광역시 동구",
+      "image_path": "images/image_0179.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/81/3573281_image2_1.jpg"
+    },
+    {
+      "vector_index": 179,
+      "image_id": "image_0180",
+      "place_id": "127091",
+      "name": "나주 완사천",
+      "region": "전남광주통합특별시 나주시",
+      "image_path": "images/image_0180.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/59/3534159_image2_1.jpg"
+    },
+    {
+      "vector_index": 180,
+      "image_id": "image_0181",
+      "place_id": "2653129",
+      "name": "석포숲공원",
+      "region": "경기도 용인시",
+      "image_path": "images/image_0181.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/21/3559721_image2_1.jpg"
+    },
+    {
+      "vector_index": 181,
+      "image_id": "image_0182",
+      "place_id": "127291",
+      "name": "강화 동막해변",
+      "region": "인천광역시 강화군",
+      "image_path": "images/image_0182.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/37/3501337_image2_1.jpg"
+    },
+    {
+      "vector_index": 182,
+      "image_id": "image_0183",
+      "place_id": "2800664",
+      "name": "제주 성산항",
+      "region": "제주특별자치도 서귀포시",
+      "image_path": "images/image_0183.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/00/3550600_image2_1.jpg"
+    },
+    {
+      "vector_index": 183,
+      "image_id": "image_0184",
+      "place_id": "4010144",
+      "name": "선자령",
+      "region": "강원특별자치도 평창군",
+      "image_path": "images/image_0184.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/25/3477125_image2_1.jpg"
+    },
+    {
+      "vector_index": 184,
+      "image_id": "image_0185",
+      "place_id": "2768075",
+      "name": "하리선착장(강화)",
+      "region": "인천광역시 강화군",
+      "image_path": "images/image_0185.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/3522701_image2_1.jpg"
+    },
+    {
+      "vector_index": 185,
+      "image_id": "image_0186",
+      "place_id": "2742112",
+      "name": "둔장해변",
+      "region": "전남광주통합특별시 신안군",
+      "image_path": "images/image_0186.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/35/3559135_image2_1.jpg"
+    },
+    {
+      "vector_index": 186,
+      "image_id": "image_0187",
+      "place_id": "228866",
+      "name": "울진 후포항",
+      "region": "경상북도 울진군",
+      "image_path": "images/image_0187.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/21/3514521_image2_1.jpg"
+    },
+    {
+      "vector_index": 187,
+      "image_id": "image_0188",
+      "place_id": "2751319",
+      "name": "향화도선착장",
+      "region": "전남광주통합특별시 영광군",
+      "image_path": "images/image_0188.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/56/3535856_image2_1.jpg"
+    },
+    {
+      "vector_index": 188,
+      "image_id": "image_0189",
+      "place_id": "2750342",
+      "name": "배다리지",
+      "region": "경기도 평택시",
+      "image_path": "images/image_0189.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/56/3521456_image2_1.jpg"
+    },
+    {
+      "vector_index": 189,
+      "image_id": "image_0190",
+      "place_id": "1895633",
+      "name": "비양봉",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0190.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/71/3585371_image2_1.jpg"
+    },
+    {
+      "vector_index": 190,
+      "image_id": "image_0191",
+      "place_id": "2781386",
+      "name": "세천포구",
+      "region": "제주특별자치도 서귀포시",
+      "image_path": "images/image_0191.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/46/3552546_image2_1.jpg"
+    },
+    {
+      "vector_index": 191,
+      "image_id": "image_0192",
+      "place_id": "2768103",
+      "name": "영흥도 몽돌해변",
+      "region": "인천광역시 옹진군",
+      "image_path": "images/image_0192.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/4117095_image2_1.jpg"
+    },
+    {
+      "vector_index": 192,
+      "image_id": "image_0193",
+      "place_id": "127879",
+      "name": "용호도",
+      "region": "경상남도 통영시",
+      "image_path": "images/image_0193.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/10/3580310_image2_1.jpg"
+    },
+    {
+      "vector_index": 193,
+      "image_id": "image_0194",
+      "place_id": "2738659",
+      "name": "구엄포구",
+      "region": "제주특별자치도 제주시",
+      "image_path": "images/image_0194.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/06/4105406_image2_1.jpg"
+    },
+    {
+      "vector_index": 194,
+      "image_id": "image_0195",
+      "place_id": "3066726",
+      "name": "주천생태공원",
+      "region": "전북특별자치도 진안군",
+      "image_path": "images/image_0195.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/3570995_image2_1.jpg"
+    },
+    {
+      "vector_index": 195,
+      "image_id": "image_0196",
+      "place_id": "2674974",
+      "name": "승학산",
+      "region": "부산광역시 사하구",
+      "image_path": "images/image_0196.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/46/3029246_image2_1.jpg"
+    },
+    {
+      "vector_index": 196,
+      "image_id": "image_0197",
+      "place_id": "1576464",
+      "name": "감악산(거창)",
+      "region": "경상남도 거창군",
+      "image_path": "images/image_0197.jpg",
+      "image_url": "https://tong.visitkorea.or.kr/cms/resource/93/4007893_image2_1.jpg"
+    },
+    {
+      "vector_index": 197,
+      "image_id": "image_0198",
+      "place_id": "2680458",
+      "name": "서리지 수변생태공원",
+      "region": "대구광역시 북구",
+      "image_path": "images/image_0198.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/85/3565085_image2_1.JPG"
+    },
+    {
+      "vector_index": 198,
+      "image_id": "image_0199",
+      "place_id": "129544",
+      "name": "지리해수욕장",
+      "region": "전남광주통합특별시 완도군",
+      "image_path": "images/image_0199.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/01/3591601_image2_1.jpg"
+    },
+    {
+      "vector_index": 199,
+      "image_id": "image_0200",
+      "place_id": "127480",
+      "name": "가거도",
+      "region": "전남광주통합특별시 신안군",
+      "image_path": "images/image_0200.jpg",
+      "image_url": "http://tong.visitkorea.or.kr/cms/resource/28/3572128_image2_1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "model_id": "google/siglip-base-patch16-224",
+  "feature": "pooler_output",
+  "normalized": true,
+  "dimension": 768
+}

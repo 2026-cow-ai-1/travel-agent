@@ -1,0 +1,6 @@
+﻿rank,score,image_id,place_id,name,region,image_path,image_url
+1,0.6972000598907471,image_0001,1605908,창덕궁 향나무,서울특별시 종로구,images/image_0001.jpg,https://tong.visitkorea.or.kr/cms/resource/26/4112926_image2_1.jpg
+2,0.5724772810935974,image_0008,128120,대구수목원,대구광역시 달서구,images/image_0008.jpg,https://tong.visitkorea.or.kr/cms/resource/97/4062397_image2_1.jpg
+3,0.5165602564811707,image_0128,2033464,정남진 편백숲 우드랜드,전남광주통합특별시 장흥군,images/image_0128.jpg,https://tong.visitkorea.or.kr/cms/resource/25/4096825_image2_1.jpg
+4,0.45590776205062866,image_0134,127842,몰운대(정선),강원특별자치도 정선군,images/image_0134.jpg,http://tong.visitkorea.or.kr/cms/resource/00/3100000_image2_1.jpg
+5,0.4537228047847748,image_0159,2710734,하조대,강원특별자치도 양양군,images/image_0159.jpg,https://tong.visitkorea.or.kr/cms/resource/18/3518018_image2_1.jpg
