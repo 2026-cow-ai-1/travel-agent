@@ -1,1 +1,10 @@
-streamlit>=1.41
+# self/front 를 실행하는 데 필요한 패키지. Python 3.9 에서 괄호 안의 버전으로 확인했다.
+# 숫자는 아래쪽 기준일 뿐이고, 다른 버전에서 돌아가는지는 확인하지 않았다.
+streamlit>=1.41      # 화면 (1.50.0)
+requests>=2.27       # 네이버 길찾기, self/total/route_tools.py (2.32.5)
+python-dotenv>=1.0   # self/.env 읽기 (1.2.1)
+openai>=2.0          # 챗봇, self/embedding_all/travel_chatbot.py (2.48.0)
+torch>=2.2           # 사진 검색 모델, self/embedding_all (2.8.0, Python 3.9 에서 설치되는 마지막 버전)
+transformers>=4.40   # 사진 검색 모델 SigLIP (4.57.6)
+numpy>=1.26          # 사진 검색 계산 (2.0.2)
+pillow>=10           # 사진 열기 (11.3.0)

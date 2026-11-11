@@ -18,7 +18,7 @@
 .stApp { background: var(--paper); color: var(--ink); }
 .stApp * { border-radius: 0 !important; }
 header[data-testid="stHeader"], [data-testid="stToolbar"], footer { display: none; }
-.block-container { max-width: 1240px; padding: 0 40px 140px; }
+.block-container { max-width: 1240px; padding: 0 40px 64px; }
 
 .stApp button[kind="primary"],
 .stApp button[kind="secondary"] {
@@ -115,23 +115,161 @@ header[data-testid="stHeader"], [data-testid="stToolbar"], footer { display: non
   margin: 0 !important; padding: 7px 0; font-size: 14px; border-bottom: 1px solid var(--line-soft);
 }
 
-/* ── 5. 대화 (말풍선 없이 대본처럼) ────────────────────────── */
+/* ── 5. 대화: 둥근 채팅 카드와 말풍선 ──────────────────────── */
+/* 위의 ".stApp * { border-radius: 0 !important }" 를 되돌리려고 둥글게 할 곳에는 .stApp 을 앞에 붙이고 !important 를 쓴다. */
 
-.tf-turn { display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 20px 0; border-bottom: 1px solid var(--ink); }
-.tf-turn:first-child { padding-top: 0; }
-.tf-who { flex: 0 0 56px; font-size: 14px; font-weight: 700; }
-.tf-say { flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 20px; }
-.tf-say p { margin: 0; font-size: 16px; line-height: 1.8; }
-.tf-turn--me .tf-who { color: var(--accent); }
-.tf-turn--me .tf-say p { color: var(--ink-soft); }
-.tf-say .tf-question { padding-top: 16px; border-top: 1px solid var(--ink); }
+/* 오른쪽 영역 전체를 감싸는 카드 (app.py 의 st.container(key="chat_card")) */
+.stApp .st-key-chat_card {
+  gap: 0; padding: 0; overflow: hidden; background: var(--paper);
+  border: 1px solid var(--ink); border-radius: 16px !important;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+}
+/* Streamlit 은 마크다운 상자에 margin-bottom: -16px 를 줘서, 제목줄(55px)을 담는 상자가 39px 로 계산되어 메시지 영역이 제목줄을 16px 덮었다.
+   (덮인 자리에서 스크롤로 올라간 말풍선 아랫부분이 제목줄 쪽에 갈색 막대로 보이고, 말풍선이 제목줄에 붙어 잘려 보였다. Chrome 과 Safari 모두) */
+.stApp .st-key-chat_card [data-testid="stMarkdownContainer"] { margin-bottom: 0; }
+.tf-chat-title {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 14px 20px; background: #FAF7F2; border-bottom: 1px solid var(--line-soft);
+}
+.tf-chat-name { font-size: 16px; font-weight: 700; }
+.tf-chat-status { font-size: 12px; color: var(--gray); }
 
-.tf-rec { display: flex; flex-wrap: wrap; gap: 20px; padding-top: 16px; border-top: 1px solid var(--ink); }
-.tf-rec .tf-photo { flex: 0 0 190px; height: 130px; }
-.tf-rec-body { flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
-.tf-rank { font-size: 13px; font-weight: 600; color: var(--accent); }
-.tf-rec-title { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
-.tf-rec-name { font-size: 20px; font-weight: 700; }
-.tf-say .tf-overview { font-size: 14px; line-height: 1.6; }
-.tf-say .tf-reason { font-size: 15px; line-height: 1.7; }
-.tf-facts { display: flex; flex-wrap: wrap; gap: 2px 16px; font-size: 13px; }
+/* 메시지 영역: 정해진 높이 안에서 스크롤한다. 일반 순서(위 → 아래)로 쌓는다.
+   예전에는 거꾸로 쌓아(column-reverse) 맨 아래에 붙였는데, Safari(WebKit)는 거꾸로 쌓은 영역의 스크롤 위치(scrollTop 이 음수)를
+   다르게 다뤄서 맨 아래에서 수십 px 어긋났다(위 여백이 잘려 말풍선이 제목줄에 붙고, 아래 카드가 잘림). 그래서 일반 순서로 바꾸고,
+   새 메시지가 오면 ui.PIN_TO_BOTTOM_HTML 이 맨 아래로 스크롤한다. 메시지가 적을 때는 첫 항목의 margin-top: auto 로 아래쪽에 붙는다. */
+.stApp .st-key-chat_scroll {
+  /* Streamlit 이 블록에 flex: 1 1 0% 를 줘서 height 가 무시되므로, 높이가 고정되게 flex 를 끈다 */
+  flex: 0 0 auto; min-height: 0;
+  height: clamp(360px, 60vh, 640px); overflow-y: auto; padding: 18px 20px; gap: 0; box-sizing: border-box;
+  display: flex; flex-direction: column; justify-content: flex-start;
+  overscroll-behavior: contain;
+  /* 제목줄과 만나는 위쪽 경계를 부드럽게 (안쪽 그림자) */
+  box-shadow: inset 0 10px 8px -10px rgba(0, 0, 0, 0.16);
+}
+.stApp .st-key-chat_scroll > :first-child { margin-top: auto; }
+/* 맨 아래로 스크롤시키는 보이지 않는 조각(높이 0)과 위치 컴포넌트가 자리를 차지하지 않게 */
+.stApp .st-key-pin_box { height: 0; min-height: 0; margin: 0; padding: 0; overflow: hidden; gap: 0; }
+.stApp .st-key-pin_box iframe { height: 0; border: 0; }
+.tf-chat { display: flex; flex-direction: column; gap: 14px; }
+/* 말풍선 안: 문장은 줄마다, " - " 목록은 불릿 목록으로 */
+.tf-bubble > span { display: block; }
+.tf-bubble > span + span, .tf-bubble > span + .tf-bullets, .tf-bubble > .tf-bullets + span { margin-top: 4px; }
+.tf-bubble .tf-bullets { margin: 0; padding-left: 18px; }
+.tf-bubble .tf-bullets li { margin: 2px 0; padding-left: 2px; }
+
+/* 말풍선: 챗봇은 왼쪽, 사용자는 오른쪽에 색이 다른 풍선 */
+.tf-turn { display: flex; justify-content: flex-start; }
+.tf-turn--me { justify-content: flex-end; }
+.tf-say { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; min-width: 0; width: min(100%, 560px); }
+.tf-turn--me .tf-say { align-items: flex-end; width: auto; max-width: 78%; }
+.stApp .tf-bubble {
+  margin: 0; padding: 10px 14px; max-width: 100%; box-sizing: border-box;
+  background: #F1EEE9; color: var(--ink); font-size: 15px; line-height: 1.65;
+  border-radius: 16px 16px 16px 4px !important; overflow-wrap: anywhere;
+}
+.stApp .tf-turn--me .tf-bubble { background: var(--accent); color: var(--paper); border-radius: 16px 16px 4px 16px !important; }
+
+/* 추천 카드가 있는 답은 말풍선도 카드와 같은 폭으로 맞춘다 */
+.stApp .tf-say--cards > .tf-bubble { align-self: stretch; }
+
+/* 추천 카드: 챗봇 말풍선 아래에 같은 폭으로 */
+.stApp .tf-say .tf-rec {
+  align-self: stretch; display: flex; flex-wrap: nowrap; gap: 12px; padding: 12px; box-sizing: border-box;
+  background: var(--paper); border: 1px solid var(--line-soft); border-radius: 12px !important;
+}
+.tf-say .tf-rec .tf-photo { flex: 0 0 88px; height: 88px; padding: 6px; font-size: 10px; line-height: 1.2; overflow: hidden; }
+.stApp .tf-say .tf-rec .tf-photo { border-radius: 8px !important; }
+.tf-rec--detail .tf-photo { flex-basis: 120px !important; height: 120px !important; }
+.tf-rec-body { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.tf-rank { font-size: 12px; font-weight: 600; color: var(--accent); }
+.tf-rec-title { display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: baseline; }
+.tf-rec-name { font-size: 16px; font-weight: 700; }
+.tf-say .tf-overview {
+  margin: 0; font-size: 13px; line-height: 1.55; color: var(--ink-soft);
+  white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.tf-say .tf-overview--full { display: block; overflow: visible; }
+.tf-say .tf-reason { margin: 0; font-size: 14px; line-height: 1.6; }
+.tf-facts { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 13px; }
+
+/* "입력 중" 말풍선: 점 세 개가 깜빡이고, 지금 하는 일을 글로 알려 준다 */
+.tf-typing { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+.tf-typing .tf-bubble { display: inline-flex; align-items: center; gap: 10px; }
+.tf-dots { display: inline-flex; gap: 4px; }
+.stApp .tf-dots i {
+  display: block; width: 7px; height: 7px; background: var(--gray); border-radius: 50% !important;
+  animation: tf-blink 1.2s infinite ease-in-out both;
+}
+.tf-dots i:nth-child(2) { animation-delay: 0.2s; }
+.tf-dots i:nth-child(3) { animation-delay: 0.4s; }
+@keyframes tf-blink {
+  0%, 80%, 100% { opacity: 0.25; transform: translateY(0); }
+  40% { opacity: 1; transform: translateY(-3px); }
+}
+.tf-typing-text { font-size: 14px; color: var(--ink-soft); }
+.tf-typing-hint { padding-left: 6px; font-size: 12px; color: var(--gray); }
+
+/* 빠른 조건 칩: 입력창 바로 위에 작은 알약 모양으로 가로 배치 */
+.stApp .st-key-chat_chips { padding: 10px 16px 0; }
+.stApp .st-key-chat_chips [data-testid="stHorizontalBlock"] { flex-wrap: wrap; gap: 8px; }
+.stApp .st-key-chat_chips [data-testid="stColumn"] { flex: 0 0 auto; width: auto; min-width: 0; }
+.stApp .st-key-chat_chips button {
+  min-height: 32px; padding: 0 14px; border: 1px solid var(--ink); background: var(--paper); color: var(--ink);
+  font-size: 13px; border-radius: 999px !important;
+}
+.stApp .st-key-chat_chips button:hover:not(:disabled) { background: var(--ink); color: var(--paper); }
+.stApp .st-key-chat_chips button:disabled { opacity: 0.45; }
+
+/* 입력창과 보내기 버튼: 카드 안쪽 맨 아래 (st.chat_input 을 컨테이너 안에 두면 맨 아래에 고정되지 않고 그 자리에 그려진다) */
+.stApp [data-testid="stChatInput"] > div { border-radius: 24px !important; }
+.stApp .st-key-chat_card [data-testid="stChatInput"] { margin: 10px 16px 16px; }
+
+/* ── 6. 왼쪽(사진, 출발지, 후보 목록): 구조는 그대로 두고, 채팅 카드와 어울리게 모서리와 선 색만 조정 ── */
+
+.tf-label { border-bottom-color: var(--line-soft); }
+.stApp .tf-photo--mine, .stApp [data-testid="stImage"] img { border-radius: 12px !important; }
+.stApp .st-key-origin_choice [data-baseweb="select"] > div,
+.stApp .st-key-max_hours_choice [data-baseweb="select"] > div { border-radius: 12px !important; font-size: 14px; }
+/* 왼쪽 열이 좁아서 선택칸 둘이 나란히 놓이므로 글자가 잘리지 않게 안쪽 여백을 줄인다 */
+.stApp .st-key-origin_choice [data-baseweb="select"] > div > div:first-child,
+.stApp .st-key-max_hours_choice [data-baseweb="select"] > div > div:first-child { padding-left: 10px; padding-right: 2px; }
+.stApp .st-key-origin_choice [data-baseweb="select"] > div > div:last-child,
+.stApp .st-key-max_hours_choice [data-baseweb="select"] > div > div:last-child { padding-left: 2px; padding-right: 6px; }
+/* 창이 좁으면(왼쪽 열이 200px 아래) 출발지와 최대 이동시간 선택칸을 위아래로 쌓는다 */
+@media (max-width: 1250px) {
+  .stApp .st-key-trip_limits [data-testid="stHorizontalBlock"] { flex-direction: column; gap: 0; }
+  .stApp .st-key-trip_limits [data-testid="stColumn"] { width: 100% !important; flex: 1 1 auto !important; min-width: 0; }
+}
+
+/* ── 7. 내 위치 사용 ───────────────────────────────────────── */
+
+/* 위치를 묻는 컴포넌트(보이지 않는 iframe)가 자리를 차지하지 않게 한다 */
+.stApp .st-key-geo_box { height: 0; min-height: 0; margin: 0; padding: 0; overflow: hidden; gap: 0; }
+.stApp .st-key-geo_box iframe { height: 0; border: 0; }
+
+/* 출발지 영역의 주 버튼: 칩과 같은 테두리 모양(검은 글자, 눌러볼 때 채움) */
+.stApp .st-key-use_location button {
+  min-height: 40px; padding: 0 14px; background: var(--paper); color: var(--ink);
+  border: 1px solid var(--ink); border-radius: 12px !important; font-size: 14px; font-weight: 600;
+}
+.stApp .st-key-use_location button:hover:not(:disabled) { background: var(--ink); color: var(--paper); }
+.stApp .st-key-use_location button:disabled { opacity: 0.45; }
+.tf-note--alert { color: var(--accent); }
+
+/* ── 8. 후보 갱신 ──────────────────────────────────────────── */
+
+/* 후보 카드 안의 이동시간 줄이 여러 개(자동차, 도보)일 때 */
+.tf-card .tf-travel + .tf-travel { border-top: 0; padding-top: 2px; }
+/* 대화 화면 왼쪽 후보 목록: 이름과 유사도 아래에 작은 이동시간 */
+.tf-list li { flex-wrap: wrap; }
+.tf-list .tf-list-travel { flex: 0 0 100%; font-size: 12px; color: var(--gray); padding-top: 2px; }
+/* 조건에 맞는 곳이 없을 때 카드 대신 보이는 안내 */
+.stApp .tf-nomatch {
+  padding: 28px 24px; border: 1px dashed var(--line-soft); border-radius: 12px !important;
+  background: #FAF7F2; color: var(--ink-soft); font-size: 15px; line-height: 1.7;
+}
+
+/* ── 9. 업로드 화면: 처리 중 막힌 버튼이 막힌 것처럼 보이게 ───────────────── */
+.stApp button[kind="primary"]:disabled,
+.stApp button[kind="secondary"]:disabled { opacity: 0.45; cursor: not-allowed; }
