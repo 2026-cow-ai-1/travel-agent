@@ -1,6 +1,6 @@
 # self/front 를 실행하는 데 필요한 패키지. Python 3.9 에서 괄호 안의 버전으로 확인했다.
 # 숫자는 아래쪽 기준일 뿐이고, 다른 버전에서 돌아가는지는 확인하지 않았다.
-streamlit>=1.41      # 화면 (1.50.0)
+streamlit>=1.50.0    # 화면 (1.50.0). type="tertiary" 버튼이 설치된 1.50.0 소스에 있다. 이 버튼이 처음 생긴 버전은 확인하지 못해서(미확인) 확인한 1.50.0 을 최소로 둔다
 requests>=2.27       # 네이버 길찾기, self/total/route_tools.py (2.32.5)
 python-dotenv>=1.0   # self/.env 읽기 (1.2.1)
 openai>=2.0          # 챗봇, self/embedding_all/travel_chatbot.py (2.48.0)
