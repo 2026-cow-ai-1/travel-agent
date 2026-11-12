@@ -219,3 +219,9 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .env
+
+# macOS
+.DS_Store
+
+# 로컬 백업 폴더
+COW_backup/
